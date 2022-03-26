@@ -23,9 +23,10 @@
 
   --border-radius-md: 0.4rem;
 
-  --container-width-lg:   75%;
-  --container-width-md:  86%;
-  --container-width-sm:   90%;
+  --container-width-xl:   76%;
+  --container-width-lg:   82%;
+  --container-width-md:   88%;
+  --container-width-sm:   95%;
   --font-family-text:    'Inter', sans-serif;
 
 }
@@ -50,7 +51,7 @@ body {
 
 /* General Styles */
 .container {
-  width: var(--container-width-lg);
+  width: var(--container-width-xl);
   margin: 0 auto;
 
 }
@@ -131,6 +132,20 @@ a:hover {
 .mono {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Media Queries (Notebooks) */
+
+
+@media screen and (max-width: 1300px){
+  .container {
+    width: var(--container-width-lg);
+  }
+  section {
+    height:auto;
+    margin-top: .5rem;
+    padding-top: .5rem;
+  }
 }
 
 /* Media Queries (medium devices) */
