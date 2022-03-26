@@ -1,0 +1,93 @@
+.experience__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.8rem;
+}
+
+.experience__container > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition)
+
+}
+
+.experience__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant)
+}
+.experience__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.experience__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2.8rem;
+    column-gap: 2rem;
+}
+
+.experience__details {
+    display: grid;
+    gap: .8rem;
+}
+
+.experience__details > div {
+    display:flex;
+    gap: .6rem;
+}
+
+.experience__details-icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+/* progress tag */
+
+ /* For Firefox */
+  progress::-moz-progress-bar {
+    background: var(--color-primary-variant);
+}
+
+/* For Chrome or Safari */
+progress::-webkit-progress-value {
+    background: var(--color-primary);
+}
+
+/* For IE10 */
+progress {
+    background: var(--color-primary);
+    width: auto;
+    
+}
+
+/* Media queries MD */
+
+@media screen and (max-width: 1024px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .experience__container > div {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .experience__content {
+        column-gap: 2rem;
+    }
+}
+
+/* Media queries SM */
+
+@media screen and (max-width: 600px) {
+    .experience__container {
+        gap: 1.2rem;
+    }
+    .experience__container > div {
+        width: 100%;
+    }
+
+    }
