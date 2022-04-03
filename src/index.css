@@ -18,15 +18,16 @@
   --color-lightgrey: #a9a9a9;
   --color-light: rbba(255. 255, 255. 0.6);
   --color-black: #101010;
+  
 
   --transition: all 400ms ease;
 
   --border-radius-md: 0.4rem;
 
-  --container-width-xl:   76%;
-  --container-width-lg:   82%;
-  --container-width-md:   88%;
-  --container-width-sm:   95%;
+  --container-width-xl:   75%;
+  --container-width-lg:   80%;
+  --container-width-md:   86%;
+  --container-width-sm:   90%;
   --font-family-text:    'Inter', sans-serif;
 
 }

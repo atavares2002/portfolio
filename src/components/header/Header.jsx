@@ -3,7 +3,7 @@ import Typical from 'react-typical'
 import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me.webp'
-import SocialIcons from './SocialIcons'
+import SocialIcons from '../socialicons/SocialIcons'
 
 export default function Header() {
   return (
@@ -37,7 +37,7 @@ export default function Header() {
           Projetos de tecnologia, marketing e educação
         </h4> */}
         <CTA />
-        <SocialIcons />
+        <SocialIcons position='header__socialicons' />
         <div className="me">
           <img src={ME} alt="André Tavares Fotografando" />
         </div>

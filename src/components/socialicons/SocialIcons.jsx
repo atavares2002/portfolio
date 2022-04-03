@@ -1,6 +1,5 @@
 import React from 'react'
 // import './socialicons.css'
-import {BSLinkedin} from 'react-icons/bs'
 import {BsFacebook} from 'react-icons/bs'
 import {BsInstagram} from 'react-icons/bs'
 import {BsLinkedin} from 'react-icons/bs'
@@ -9,9 +8,9 @@ import {BsYoutube} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
 
 
-const SocialIcons = () => {
+const SocialIcons = (props) => {
     return (
-        <div className="header__socialicons">
+        <div className={props.position}>
             <a href="https://web.facebook.com/atavares75" target="_blank" rel="noopener noreferrer">
                 <BsFacebook />
             </a>
