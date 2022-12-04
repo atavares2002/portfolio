@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.365fa41f.css",
-    "main.js": "/static/js/main.389e38e2.js",
+    "main.js": "/static/js/main.3558f64f.js",
     "static/media/img-portfolio5.png": "/static/media/img-portfolio5.778c98862efe80fd359c.png",
     "static/media/img-portfolio2.png": "/static/media/img-portfolio2.d25f97e6464548b4fa36.png",
     "static/media/img-portfolio6.png": "/static/media/img-portfolio6.2617ce9dbe75b28c7f90.png",
@@ -12,10 +12,10 @@
     "static/media/andre-tavares-about.webp": "/static/media/andre-tavares-about.93239c182b5ec9fee4ab.webp",
     "index.html": "/index.html",
     "main.365fa41f.css.map": "/static/css/main.365fa41f.css.map",
-    "main.389e38e2.js.map": "/static/js/main.389e38e2.js.map"
+    "main.3558f64f.js.map": "/static/js/main.3558f64f.js.map"
   },
   "entrypoints": [
     "static/css/main.365fa41f.css",
-    "static/js/main.389e38e2.js"
+    "static/js/main.3558f64f.js"
   ]
 }
