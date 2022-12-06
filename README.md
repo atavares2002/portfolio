@@ -1,6 +1,6 @@
 # André Tavares Portfolio (ATAVARES)
 
-Project developed while following the step-by-sstep tutorial provided by @EGATOR available on YouTube[https://youtu.be/G-Cr00UYokU] (https://youtu.be/G-Cr00UYokU).
+Project developed while following the step-by-step tutorial provided by @EGATOR available on YouTube[https://youtu.be/G-Cr00UYokU] (https://youtu.be/G-Cr00UYokU).
 Thanks EGATOR for sharing.
 
 ## Some improvements
