@@ -37,7 +37,7 @@ const About = () => {
               </article>
             </div>
             <p>
-            Há mais de 20 anos em projetos nas áreas de educação, tecnologia e desenvolvimento profissional. 
+            Mais de 20 anos dedicados a projetos nas áreas de educação, tecnologia e desenvolvimento profissional. 
             Tive o privilégio de compor e liderar equipes em projetos de integração de sistemas, desenvolvimento de aplicações, inovação e gestão do conhecimento. 
             Total dedicação aos clientes e projetos, compartilhando conhecimentos nas modalidades presencial e a distância. 
             Atualmente, desenvolvo, customizo e otimizo sites com foco em front-end, UX design, SEO e outras estratégias do marketing digital.
